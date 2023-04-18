@@ -1,0 +1,10 @@
+convoy_10={
+"type": "FeatureCollection",
+"name": "convoy_10",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "convoyNumber": "10",
+  "list_nati_milano": " Archivolti, Liliana | Caminada, Arturo | Coen, Elena | Fels, Guglielmo | Fubini, Renzo | Hauser, Arnaldo | Hauser, Lania Laura | Hauser, Umberto | Jona, Rinaldo | Jona, Rosa Bianca | Levi, Guglielmo | Sass, Peter | Scandiani, Bianca | Segre, Marco | Vitale, Michele ",
+  "list_arrestati_milano": "Adler, [Nome ignoto] | Adler, Anita | Ancona, Vittoria | Caminada, Arturo | Cuzzeri, Eugenia | De Benedetti, Amalia Perla | Di Veroli, Ernesta | Efrati, Costanza | Esquenazi, Leone | Foa, Noemi | Gottsegen, Enrico | Gruenwald, Francesco Oliviero | Jenna, Moise | Jona, Rinaldo | Jona, Rosa Bianca | Landau, Lea Elisa | Levi, Samuele Enea | Milul, Lina Fortuné | Sinigaglia, Italo | Zamatto, Guido | Zarfati, Cesare ", "description": "Il convoglio n. \"10\" parte  dal Campo di Polizia e Transito di Fossoli (Modena) il 16 maggio 1944. Viaggia sotto la sigla RSHA (Reichssicherheitshauptamt) e arriva ad Auschwitz il 23 maggio 1944. ", "quantity": 20, "labelConvoyDeparturePlace": "Campo di Fossoli", "labelConvoyDeparturePlace_color": "purple", "labelConvoyDeparturePlace_lat": 44.83268416, "labelConvoyDeparturePlace_lng": 10.89939796, "labelConvoyDeparturePlace_date": "4/27/1944", "cambio_verona": "Campo di Fossoli", "cambio_verona_color": "purple", "cambio_verona_icon": "circle", "cambio_verona_lat": 44.83268416, "cambio_verona_lng": 10.89939796, "cambio_date": "5/16/1944", "convoyDepartureDate": "5/16/1944", "convoyDepartureDate_label": "martedÃ¬ 16 maggio 1944", "labelToNaziCamp": "Auschwitz", "labelToNaziCamp_color": "grey", "labelToNaziCamp_lat": "50.03042707", "labelToNaziCamp_lng": 19.20103107, "convoyArrivalDate": "5/23/1944", "convoyArrivalDate2": "martedÃ¬ 23 maggio 1944", "closeCampDate": "1/27/1945", "closeCampDate_label": "sabato 27 gennaio 1945" }, "geometry": { "type": "LineString", "coordinates": [ [ 10.89939796, 44.83268416 ], [ 10.89939796, 44.83268416 ], [ 19.20103107, 50.03042707 ] ] } }
+]
+}

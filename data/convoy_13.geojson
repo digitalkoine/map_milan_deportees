@@ -1,0 +1,10 @@
+convoy_13={
+"type": "FeatureCollection",
+"name": "convoy_13",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "convoyNumber": "13",
+  "list_nati_milano": "Anticoli, Attilio | Diamante, Ermanno | Mankevitz, Ernst | Molho, Dario | Segre, Giuseppe | Varon, Dora | Varon, Leone ",
+   "list_arrestati_milano": " Asseo, Rachele | Attias, Sara | Dana, Isacco | Kuh, Meta Marie | Mankevitz, Anna | Mankevitz, Ernst | Mayer, Karoline | Molho, Dario | Mosberg, Margit Sofia | Saltiel, Rachele | Varon, Dora | Varon, Hasdai | Varon, Leone | Winter, Alfredo ", "description": "Il convoglio n. \"13\" parte dal Campo di Polizia e Transito di Fossoli (Modena) il 26 giugno 1944. Viaggia  sotto la sigla RSHA (Reichssicherheitshauptamt). A Verona carica altri prigionieri. Arriva ad Auschwitz il 30 giugno 1944. ", "quantity": 13, "labelConvoyDeparturePlace": "Campo di Fossoli", "labelConvoyDeparturePlace_color": "purple", "labelConvoyDeparturePlace_lat": 44.83268416, "labelConvoyDeparturePlace_lng": 10.89939796, "labelConvoyDeparturePlace_date": "6/8/1944", "cambio_verona": "Campo di Fossoli", "cambio_verona_color": "purple", "cambio_verona_icon": "circle", "cambio_verona_lat": 44.83268416, "cambio_verona_lng": 10.89939796, "cambio_date": "6/26/1944", "convoyDepartureDate": "6/26/1944", "convoyDepartureDate_label": "lunedÃ¬ 26 giugno 1944", "labelToNaziCamp": "Auschwitz", "labelToNaziCamp_color": "grey", "labelToNaziCamp_lat": "50.03042707", "labelToNaziCamp_lng": 19.20103107, "convoyArrivalDate": "6/30/1944", "convoyArrivalDate2": "venerdÃ¬ 30 giugno 1944", "closeCampDate": "1/27/1945", "closeCampDate_label": "sabato 27 gennaio 1945" }, "geometry": { "type": "LineString", "coordinates": [ [ 10.89939796, 44.83268416 ], [ 10.89939796, 44.83268416 ], [ 19.20103107, 50.03042707 ] ] } }
+]
+}

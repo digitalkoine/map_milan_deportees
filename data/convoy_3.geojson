@@ -1,0 +1,9 @@
+convoy_3={
+"type": "FeatureCollection",
+"name": "convoy_3",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "convoyNumber": "3",
+  "list_nati_milano": "D'Angeli, Carlo", "list_arrestati_milano": "N/A", "description": "Il convoglio n. \"3\" viene formato a Firenze e Bologna il 9 novembre 1943. Viaggia sotto la sigla RSHA ((Reichssicherheitshauptamt). Arriva ad Auschwitz il 14 novembre 1943", "quantity": 1, "labelConvoyDeparturePlace": "Carcere di Firenze", "labelConvoyDeparturePlace_color": "blue", "labelConvoyDeparturePlace_lat": 43.76948855, "labelConvoyDeparturePlace_lng": 11.26796485, "labelConvoyDeparturePlace_date": "11/7/1943", "cambio_verona": "Stazione di Bologna", "cambio_verona_color": "purple", "cambio_verona_icon": "icon", "cambio_verona_lat": 44.50708005, "cambio_verona_lng": 11.34397793, "cambio_date": "11/9/1943", "convoyDepartureDate": "11/14/1943", "convoyDepartureDate_label": "domenica 14 novembre 1943", "labelToNaziCamp": "Auschwitz", "labelToNaziCamp_color": "grey", "labelToNaziCamp_lat": "50.03042707", "labelToNaziCamp_lng": 19.20103107, "convoyArrivalDate": "11/14/1943", "convoyArrivalDate2": "domenica 14 novembre 1943", "closeCampDate": "1/27/1945", "closeCampDate_label": "sabato 27 gennaio 1945" }, "geometry": { "type": "LineString", "coordinates": [ [ 11.26796485, 43.76948855 ], [ 11.34397793, 44.50708005 ], [ 19.20103107, 50.03042707 ] ] } }
+]
+}

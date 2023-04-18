@@ -1,0 +1,10 @@
+convoy_19={
+"type": "FeatureCollection",
+"name": "convoy_19",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "convoyNumber": "19",
+  "list_nati_milano": " Cittone, Elia | Cittone, Gioia Giulietta | De Benedetti, Lucia | Farina, Teodolinda",
+  "list_arrestati_milano": " Cittone, Elia | Cittone, Gioia Giulietta | De Benedetti, Lucia | Finzi, Anna Maria | Finzi, Elena | Levi, Donna | Sadun, Paolo | Sinigaglia, Teresina | Varon, Allegrina | Weissenstein, Margherita", "description": "Il convoglio n. \"19\" parte dal Campo di Polizia e Transito di Bolzano Gries il 14 dicembre 1944. Trasporta detenuti politici e razziali.   Probabilmente viaggiava sotto la sigla SIPO-SD (Sicherheitspolizei und Sicherheitsdienst). Arriva al campo di Ravensbrueck il 20 dicembre 1944. ", "quantity": 10, "labelConvoyDeparturePlace": "Campo di Bolzano", "labelConvoyDeparturePlace_color": "purple", "labelConvoyDeparturePlace_lat": 46.48656631, "labelConvoyDeparturePlace_lng": 11.31802534, "labelConvoyDeparturePlace_date": "11/1/1944", "cambio_verona": "Campo di Bolzano", "cambio_verona_color": "purple", "cambio_verona_icon": "circle", "cambio_verona_lat": 46.48656631, "cambio_verona_lng": 11.31802534, "cambio_date": "12/14/1944", "convoyDepartureDate": "12/14/1944", "convoyDepartureDate_label": "giovedÃ¬ 14 dicembre 1944", "labelToNaziCamp": "Ravensbrueck", "labelToNaziCamp_color": "grey", "labelToNaziCamp_lat": "53.19116018", "labelToNaziCamp_lng": 13.16687443, "convoyArrivalDate": "12/20/1944", "convoyArrivalDate2": "mercoledÃ¬ 20 dicembre 1944", "closeCampDate": "4/17/1945", "closeCampDate_label": "martedÃ¬ 17 aprile 1945" }, "geometry": { "type": "LineString", "coordinates": [ [ 11.31802534, 46.48656631 ], [ 11.31802534, 46.48656631 ], [ 13.16687443, 53.19116018 ] ] } }
+]
+}

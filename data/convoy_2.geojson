@@ -1,0 +1,10 @@
+convoy_2={
+"type": "FeatureCollection",
+"name": "convoy_2",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "convoyNumber": "2",
+  "list_nati_milano": "Di Tivoli, Albertina | Di Tivoli, Speranza | Remondini, Marcella",
+  "list_arrestati_milano": "N/A", "description": "Il convoglio n. \"2\" parte da Roma il 18 ottobre 1943. Viaggia sotto la sigla RSHA (Reichssicherheitshauptamt) e arriva ad Auschwitz il 23 ottobre 1943. Con questo convoglio vennero deportati ad Auschwitz gli oltre mille ebrei catturati nella razzia di Roma del 16 ottobre 1943.  ", "quantity": 3, "labelConvoyDeparturePlace": "Roma", "labelConvoyDeparturePlace_color": "blue", "labelConvoyDeparturePlace_lat": 41.92258835, "labelConvoyDeparturePlace_lng": 12.46898653, "labelConvoyDeparturePlace_date": "10/18/1943", "cambio_verona": "Roma", "cambio_verona_color": "blue", "cambio_verona_icon": "circle", "cambio_verona_lat": 41.92258835, "cambio_verona_lng": 12.46898653, "cambio_date": "10/18/1943", "convoyDepartureDate": "10/18/1943", "convoyDepartureDate_label": "lunedì 18 ottobre 1943", "labelToNaziCamp": "Auschwitz", "labelToNaziCamp_color": "grey", "labelToNaziCamp_lat": "50.03042707", "labelToNaziCamp_lng": 19.20103107, "convoyArrivalDate": "10/23/1943", "convoyArrivalDate2": "sabato 23 ottobre 1943", "closeCampDate": "1/27/1945", "closeCampDate_label": "sabato 27 gennaio 1945" }, "geometry": { "type": "LineString", "coordinates": [ [ 12.46898653, 41.92258835 ], [ 12.46898653, 41.92258835 ], [ 19.20103107, 50.03042707 ] ] } }
+]
+}

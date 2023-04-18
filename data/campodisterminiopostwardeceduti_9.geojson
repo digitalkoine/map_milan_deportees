@@ -1,0 +1,59 @@
+extermination_camps_postwar_deceased =
+{
+  "type": "FeatureCollection",
+  "name": "campodisterminiopostwardeceduti_9",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "quantity": 121.0,
+        "start_date": "27/01/1945",
+        "labelToNaziCamp": "Deceduti ad Auschwitz",
+        "labelToNaziCamp_color": "grey",
+        "labelToNaziCamp_lat": 50.03043,
+        "labelToNaziCamp_lng": 19.20103,
+        "convoyArrivalDate": "27/01/1945",
+        "convoyArrivalDate2": "sabato 27 gennaio 1945",
+        "end_date": "27/01/1947",
+        "closeCampDate_label": "luned\u00ec 27 gennaio 1947",
+        "serial": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.20103107,
+          50.03042707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "quantity": 3.0,
+        "start_date": "17/04/1945",
+        "labelToNaziCamp": "Deceduti a Ravensbrueck",
+        "labelToNaziCamp_color": "grey",
+        "labelToNaziCamp_lat": 53.19116,
+        "labelToNaziCamp_lng": 13.16687,
+        "convoyArrivalDate": "17/04/1945",
+        "convoyArrivalDate2": "marted\u00ec 17 aprile 1945",
+        "end_date": "17/04/1947",
+        "closeCampDate_label": "gioved\u00ec 17 aprile 1947",
+        "serial": "?"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.16687443,
+          53.19116018
+        ]
+      }
+    }
+  ]
+}
