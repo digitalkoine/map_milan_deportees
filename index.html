@@ -110,10 +110,11 @@
           var prevLayerClicked = null
           layer.bindPopup(
             '<p>'+'<strong>'+feature.properties.name+'</strong>'+
-            '<p>'+'Data di nascita: '+feature.properties.dateOfBirth_label+
-            '<br>'+'Data di arresto a Milano e di trasferimento a '+feature.properties.detentionPlace+': '+feature.properties.arrestDate_label+
-            '<br>'+'Data di arrivo a '+feature.properties.labelToNaziCamp+' con convoglio numero '+feature.properties.convoyNumber_1+': '+ feature.properties.convoyArrivalDate2+
-            '<br>'+feature.properties.deathDescription+
+            '<p>'+'<strong>'+'Data di nascita: '+feature.properties.dateOfBirth_label+'</strong>'+
+            '<br>'+'<strong>'+'Data di arresto a '+feature.properties.labelarrestPlace+ ' e di trasferimento a '+feature.properties.detentionPlace+': '+'</strong>'+feature.properties.arrestDate_label+
+            '<br>'+'<strong>'+'Data di arrivo a '+feature.properties.labelToNaziCamp+' con convoglio numero '+feature.properties.convoyNumber_1+': '+'</strong>'+ feature.properties.convoyArrivalDate2+
+            '<br>'+'<strong>'+feature.properties.deathDescription+'</strong>'+
+            '<br>'+'<a href='+feature.properties.IRI+' target="_blank">'+'Link'+
             '</p>'
             );
           /*layer.on({
@@ -168,10 +169,11 @@
         onEachFeature: function(feature, layer){
           layer.bindPopup(
             '<p>'+'<strong>'+feature.properties.name+'</strong>'+
-            '<p>'+'Data di nascita: '+feature.properties.dateOfBirth_label+
-            '<br>'+'Data di arresto a Milano e di trasferimento a '+feature.properties.detentionPlace+': '+feature.properties.arrestDate+
-            '<br>'+'Data di arrivo a '+feature.properties.labelToNaziCamp+' con convoglio numero '+feature.properties.convoyNumber_1+': '+ feature.properties.convoyArrivalDate2+
-            '<br>'+feature.properties.deathDescription+
+            '<p>'+'<strong>'+'Data di nascita: '+'</strong>'+feature.properties.dateOfBirth_label+
+            '<br>'+'<strong>'+'Data di arresto a '+feature.properties.labelarrestPlace+ ' e di trasferimento a '+feature.properties.detentionPlace+': '+'</strong>'+feature.properties.arrestDate+
+            '<br>'+'<strong>'+'Data di arrivo a '+feature.properties.labelToNaziCamp+' con convoglio numero '+feature.properties.convoyNumber_1+': '+'</strong>'+ feature.properties.convoyArrivalDate2+
+            '<br>'+'<strong>'+feature.properties.deathDescription+'</strong>'+
+            '<br>'+'<a href='+feature.properties.IRI+' target="_blank">'+'Link'+
             '</p>'
             );
         },
@@ -269,10 +271,11 @@
              var dateOfBirth_label = feature.properties.dateOfBirth_label;
              if (name == searched_names[i]){
                div.innerHTML += '<h1>'+'<strong>'+feature.properties.name+'</strong>'+
-               '</h1>'+'<p>'+'Data di nascita: '+feature.properties.dateOfBirth_label+'<p>'+
-               '<p>'+'Data di arresto trasferimento a '+feature.properties.detentionPlace+': '+feature.properties.arrestDate_label+
-               '<p>'+'Data di arrivo a '+feature.properties.labelToNaziCamp+' con convoglio numero '+feature.properties.convoyNumber_1+': '+ feature.properties.convoyArrivalDate2+
-               '<p>'+feature.properties.deathDescription+
+               '</h1>'+'<p>'+'<strong>'+'Data di nascita: '+'</strong>'+feature.properties.dateOfBirth_label+'<p>'+
+               '<p>'+'<strong>'+'Data di arresto a '+feature.properties.labelarrestPlace+ ' e di trasferimento a '+feature.properties.detentionPlace+': '+'</strong>'+feature.properties.arrestDate_label+
+               '<p>'+'<strong>'+'Data di arrivo a '+feature.properties.labelToNaziCamp+' con convoglio numero '+feature.properties.convoyNumber_1+': '+'</strong>'+ feature.properties.convoyArrivalDate2+
+               '<p>'+'<strong>'+feature.properties.deathDescription+'</strong>'+
+               '<p>'+'<a href='+feature.properties.IRI+' target="_blank">'+'Link'+
                '</p>'+'<br>'
              }
            }
