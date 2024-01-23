@@ -40,9 +40,9 @@ function eventHandlerOnEachFeature_arrest(feature, layer) {
     // <strong> and </strong> indicate bold text, and <br> indicated next line. + is concatenation
     layer.bindPopup(
       '<p>'+'<strong>'+feature.properties.name+'</strong>'+
-      '<br>'+'Indirizzo di arresto (se disponibile): '+feature.properties.labelarrestPlace+
-      '<br>'+'Data di arresto: '+feature.properties.start_date_label
-      +'<br>'+'<a href='+feature.properties.IRI+'>'+'Link'
+      '<br>'+'<strong>'+'Indirizzo di arresto (se disponibile): '+'</strong>'+feature.properties.labelarrestPlace+
+      '<br>'+'<strong>'+'Data di arresto: '+'</strong>'+feature.properties.start_date_label
+      +'<br>'+'<a href='+feature.properties.IRI+' target="_blank">'+'Link'
       +'</p>'
     );
 };
