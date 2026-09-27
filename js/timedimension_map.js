@@ -39,9 +39,14 @@ var map = L.map('map',  {
     }
   }
 }).setView([41.6, 8.857524], 5);
+// Add the CARTO basemap API key here, or define window.CARTO_API_KEY before this script loads.
+var CARTO_API_KEY = window.CARTO_API_KEY || 'cb1_3t35_1_bf2ca58871c05c060c73c6a3';
+var cartoVoyagerTileUrl = 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png' +
+  (CARTO_API_KEY ? '?key=' + encodeURIComponent(CARTO_API_KEY) : '');
+
 //This calls the tiles that will be used as basemap for the map. Different types and style of basemap are available
 L.tileLayer(
-    'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',{
+    cartoVoyagerTileUrl,{
     //Controls the max zoom of the app
 
     minZoom: 0,
